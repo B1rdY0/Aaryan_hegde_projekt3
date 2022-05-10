@@ -8,8 +8,8 @@
 body {
     display: flex;
     display: grid;
-    grid-template-columns: 15% 30%  10% 30% 15%;
-    grid-template-rows: 15% 30% 10% 30% 15% ;
+    grid-template-columns: 15% 30% 10% 30% 15%;
+    grid-template-rows: 15% 30% 10% 30% 15%;
     width: 100%;
     min-height: 100vh;
     background-color: black;
@@ -17,26 +17,51 @@ body {
 }
 
 
-.Box1{
-    background-color: white;
-    grid-row: 2 / 3;
-    grid-column: 1 / 6 ;
+
+h2 {
+    position: relative;
+    left: 500px;
 }
 
-.Box2{
+
+.Box1 {
+    background-color: white;
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+}
+
+.Box2 {
     background-color: white;
     grid-row: 4 / 5;
     grid-column: 1 / 6;
 }
 
-button{
+.button {
+    display: flex;
     background-color: black;
     color: white;
     border-radius: 10px;
     font-size: 30px;
     margin: 5px;
+    position: relative;
+    left: 1000px;
+    top: 60px;
 }
 
 
+.button1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 5px;
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
 
-
+.picgame {
+    width: 100px;
+    height: 100px;
+}
