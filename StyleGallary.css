@@ -4,32 +4,44 @@
     box-sizing: border-box;
 }
 
-
-body {
+header{
     display: grid;
-    grid-template-columns: 15% 30% 10% 30% 15%;
-    grid-template-rows: 15% 30% 10% 30% 15%;
-    width: 100%;
-    min-height: 100vh;
+
 }
 
-.left{
+.left {
     grid-template-columns: 1 / 2;
     grid-template-rows: 1 / 2;
 }
 
-.Logo{
+.Logo {
     max-width: 100%;
     height: 120px;
 }
 
 
-.Layout1{
-    grid-template-columns: 2 / 3;
-    grid-template-rows: 2 / 3;
+.Layout1 > div {
+    background-color: black;
+    padding: 1em;
 }
 
-.PVZ1{
+
+.Layout1{
+    display: grid;
+    grid-column: 70% 30%;
+    grid-row-gap: 10px;
+    background-color: white;
+    color: white;
+
+}
+
+.PVZ1 {
     max-width: 100%;
-    height: 100px;
+    height: 200px;
+}
+
+
+.PVZ2{
+    max-width: 100%;
+    height: 200px;
 }
