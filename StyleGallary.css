@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     display: grid;
 
 }
@@ -20,13 +20,13 @@ header{
 }
 
 
-.Layout1 > div {
+.Layout1>div {
     background-color: black;
     padding: 1em;
 }
 
 
-.Layout1{
+.Layout1 {
     display: grid;
     grid-column: 70% 30%;
     grid-row-gap: 10px;
@@ -41,7 +41,13 @@ header{
 }
 
 
-.PVZ2{
+.PVZ2 {
+    max-width: 100%;
+    height: 200px;
+}
+
+
+.MC{
     max-width: 100%;
     height: 200px;
 }
