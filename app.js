@@ -1,8 +1,10 @@
-function button(){
-    var Element = document.getElementById('addnumber');
+function button() {
+    var Element = document.getElementById("addnumber");
+    var value = element.innerHTML;
 
-    var value = element.innerHTML; 
-     ++value;
-     console.log(value)
-     
+    ++value;
+
+    console.log(value);
+    document.getElementById("addnumber").innerHTML = value;
+
 }
